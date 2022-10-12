@@ -1,0 +1,25 @@
+api:
+  host: "0.0.0.0"
+  port: 8080
+webHook:
+  enable: true
+  url: "http://localhost:8080/service/webhooks"
+redis:
+  url: "harbor-harbor-redis:637"
+  password: "xxxx"
+authEnable: true
+userMode: "stub"
+userAccount:
+  user:
+    name: "gaoli"
+    cnname: "GAOLI"
+  roles:
+    roleID: "xxx"
+    roleName: "admin"
+  groups:
+  - resourceGroupID: 1
+    resourceGroupName: "name"
+    resourceGroupUUID: "uuid"
+    resourceGroupENV: "env"
+
+
